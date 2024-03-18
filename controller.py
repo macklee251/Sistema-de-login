@@ -48,7 +48,7 @@ class ControllerLogin():
         else:
             return False
         
-print(ControllerLogin.login("allison@gmail.com", "sousa13"))
+print(ControllerCadastro.cadastrar("allison", "allison@gmail.com", "sousa13"))
     
 session = return_session()    
 x = session.query(Pessoa).all()
